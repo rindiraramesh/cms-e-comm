@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Set1_Runs_InFlow">
+	<parameter name="ProjectName" value="CAYCE MILL SUPPLY" />
+	<parameter name="URL" value="https://20800cms-beta.cimm2.com/" />
+	<parameter name="Browser" value="chrome" />
+	<parameter name="RunHeadless" value="true" />
+	<parameter name="Company" value="CAYCE MILL SUPPLY" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://gitlab-chrome:4444/wd/hub" />
+	<!-- <parameter name="RemoteUrl" value="http://localhost:4444/wd/hub" /> -->
+	<test name="Regression" preserve-order="false">
+	<!-- <groups>
+			<run>
+				<include name="Smoke Test" />
+			</run>
+		</groups> -->
+		<classes>
+			<class name="testmethods.AddToCartModuleTest" />
+			<class name="testmethods.POCheckoutModuleTest" />
+			<!-- <class name="testmethods.ReOrderCartModuleTest" />  -->
+			<class name="testmethods.ProductDetail_V1ModuleTest" />
+			<class name="testmethods.QuickOrderPadModuleTest" />
+			<!-- <class name="testmethods.SalesPersonModuleTest" /> this role is not available -->
+			<class name="testmethods.SaveCartModuleTest" />
+			<class name="testmethods.ShoppingCartModuleTest" />
+			<!-- <class name="testmethods.ZShareCartModuleTest" /> -->
+		</classes>
+	</test>
+</suite>

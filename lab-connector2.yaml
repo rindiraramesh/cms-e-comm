@@ -1,0 +1,74 @@
+image: maven:latest
+
+stages:
+  - chrome_test
+  - generate_report
+  
+variables:
+    MAVEN_CLI_OPTS: "-s $CI_PROJECT_DIR/.m2/settings.xml"
+    MAVEN_OPTS: "-Djdk.net.URLClassPath.disableClassPathURLCheck=true -Dmaven.repo.local=.m2/repository"
+    URL: "https://973ecb.cimm2.com"
+    ProjectName: "E-Commerce Bond"
+    GIT_SUBMODULE_STRATEGY: normal
+    GRID_BROWSER_TIMEOUT: "300000"
+    GRID_TIMEOUT: "300000"
+    SE_OPTS: "-browserTimeout 100 -timeout 100"
+    CHROME_DRIVER_VERSION: "81.0.4044.20"
+
+cache:
+  paths:
+    - .m2/repository/
+    - target/
+    
+chrome_test:
+  stage: chrome_test 
+  services:
+  - name: selenium/standalone-chrome:3.141.59-zirconium
+    alias: gitlab-chrome
+  
+  script:
+    - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+    - echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list
+    - apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AA8E81B4331F7F50
+    - echo "deb [check-valid-until=no] http://cdn-fastly.deb.debian.org/debian jessie main" > /etc/apt/sources.list.d/jessie.list
+    - echo "deb [check-valid-until=no] http://archive.debian.org/debian jessie-backports main" > /etc/apt/sources.list.d/jessie-backports.list
+    - sed -i '/deb http:\/\/deb.debian.org\/debian jessie-updates main/d' /etc/apt/sources.list
+    - apt-get -o Acquire::Check-Valid-Until=false update
+    - apt-get -qqy install google-chrome-stable
+    - rm /etc/apt/sources.list.d/google-chrome.list
+    - rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+    - sed -i 's/"$HERE\/chrome"/"$HERE\/chrome" --no-sandbox/g' /opt/google/chrome/google-chrome
+    - wget --no-verbose -O /tmp/chromedriver_linux64.zip https://chromedriver.storage.googleapis.com/$CHROME_DRIVER_VERSION/chromedriver_linux64.zip
+    - rm -rf /opt/chromedriver
+    - unzip /tmp/chromedriver_linux64.zip -d /opt
+    - rm /tmp/chromedriver_linux64.zip
+    - mv /opt/chromedriver /opt/chromedriver-$CHROME_DRIVER_VERSION
+    - chmod 755 /opt/chromedriver-$CHROME_DRIVER_VERSION
+    - ln -fs /opt/chromedriver-$CHROME_DRIVER_VERSION /usr/bin/chromedriver
+    - apt-get -o Acquire::Check-Valid-Until=false update
+    - apt-get -qqy install xvfb
+    - rm -rf /var/lib/apt/lists/* /var/cache/apt/*
+    - sleep 5s
+    - java -jar selenium-server-standalone-3.141.59.jar -role hub &
+    - sleep 5s
+    - java -Dwebdriver.chrome.driver=/opt/chromedriver-$CHROME_DRIVER_VERSION -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register -port 9401 &
+    - mvn $MAVEN_CLI_OPTS $MAVEN_OPTS test clean -DURL="https://973ecb.cimm2.com" -DProjectName="E-Commerce Bond";
+          
+  allow_failure: true
+  artifacts:
+    when: always
+    paths:
+      - target
+      
+prepare_report:
+  stage: generate_report 
+  image: maven:3.3.9-jdk-8
+  script:
+    - mvn $MAVEN_CLI_OPTS $MAVEN_OPTS site;
+  artifacts:
+    when: always
+    paths:
+      - target
+  
+
+

@@ -1,0 +1,18 @@
+<environment>
+	<parameter>
+		<key>Operating System</key>
+		<value>Windows</value>
+	</parameter>
+	<parameter name="Browser" value="${Browser}">
+		<key>Browser</key>
+		<value>${Browser}</value>
+	</parameter>
+	<parameter name="ProjectName" value="${ProjectName}">
+		<key>Project Name</key>
+		<value>${ProjectName}</value>
+	</parameter>
+	<parameter name="URL" value="${URL}">
+		<key>Application URL</key>
+		<value>${URL}</value>
+	</parameter>
+</environment>

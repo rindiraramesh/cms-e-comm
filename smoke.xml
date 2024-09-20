@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Comm_Template_Hybrid_SmokeSuite" parallel="classes"
+	thread-count="3" >
+	<parameter name="ProjectName" value="${ProjectName}" />
+	<parameter name="URL" value="${URL}" />
+	<parameter name="Browser" value="${Browser}" />
+	<parameter name="RunHeadless" value="true" />
+	<parameter name="Company" value="${Company}" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://gitlab-chrome:4444/wd/hub" />
+	<!-- <parameter name="RemoteUrl" value="http://localhost:4444/wd/hub" /> -->
+	<test name="Smoke Suite">
+		<classes>
+
+			<class name="testmethods.SmokeTests" />
+			<class name="testmethods.SmokeTests2" >
+			<methods>
+					<!-- <include name="verifySearchByPartNumber"></include> -->
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

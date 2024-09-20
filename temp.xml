@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="classes" thread-count="3">
+
+	<!-- <parameter name="URL" value="https://15113ect-beta.cimm2.com/" /> -->
+
+	<parameter name="URL" value="https://20800cms-beta.cimm2.com/"/>
+
+	<parameter name="Browser" value="chrome" />
+	<parameter name="RunHeadless" value="false" />
+	<parameter name="Company" value="CAYCE MILL SUPPLY" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://localhost:4444/wd/hub" />
+
+	<!-- <parameter name="RemoteUrl" value="http://172.16.0.204:4444/wd/hub" 
+		/> -->
+
+	<test name="Smoke Suite">
+		<!-- <groups> <run> <include name="Smoke Test"></include> </run> </groups> -->
+		<classes>
+			<class name="testmethods.QuickOrderPadModuleTest">
+			
+				<methods>
+				
+				<!-- <include name="verifyErrorScenarioOrderDetails"></include> -->
+		<!-- 		<include name="verifyMyAccountPageProfileTab"></include> -->
+			<!-- 	<include name="verifiyAddToCartFunctionalityFromPLPage"></include> -->
+				<!-- <include name="verifySearchFunctionality_narrowSearch_MPN"></include>
+				<include name="verifySearchFunctionality_narrowSearch_partNumber"></include>
+				<include name="verifySearchFunctionality_narrowSearch_UPC"></include>
+					 -->
+		</methods>
+
+			
+			</class>
+		
+		</classes>  
+
+	</test>
+</suite>

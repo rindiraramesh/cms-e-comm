@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testmethods.AccountDashboardModuleTest">
+        <methods>
+          <include name="verifyContentOfAddressTab"/>
+          <include name="verifyUpdateButtonFunctionalityOfShippingAddress"/>
+          <include name="verifyMyAccountDropdown"/>
+          <include name="verifyErrorMessageWithoutEnterMandatoryFieldsInEditContactPage"/>
+          <include name="initialSetup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyProfileTabContactInfo"/>
+          <include name="verifyErrorMessageBillAdd"/>
+          <include name="verifyShowDropDownFunctionality"/>
+          <include name="verifyMyAccountPageProfileTab"/>
+          <include name="verificationOfLastLoginDetails"/>
+          <include name="verifyImageUpload"/>
+          <include name="verificationOfSearchOptionInAddressTabForValidData"/>
+          <include name="a_login"/>
+          <include name="z_LogOut"/>
+          <include name="a_verifyMyProductGroupFunctionalityUnderGroupsTab"/>
+          <include name="c_verifySaveCartFunctionalityUnderGroupsTab"/>
+          <include name="verificationOfSearchOptionInAddressTabForInValidData"/>
+        </methods>
+      </class> <!-- testmethods.AccountDashboardModuleTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

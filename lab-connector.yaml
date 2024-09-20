@@ -1,0 +1,47 @@
+image: maven:latest
+
+stages:
+  - chrome_test
+  - generate_report
+variables:
+    MAVEN_CLI_OPTS: "-s $CI_PROJECT_DIR/.m2/settings.xml"
+    MAVEN_OPTS: "-Djdk.net.URLClassPath.disableClassPathURLCheck=true -Dmaven.repo.local=.m2/repository"
+    URL: "https://973ecb.cimm2.com"
+    ProjectName: "E-CommerceBond_ProdTest"
+    GIT_SUBMODULE_STRATEGY: normal
+    GRID_BROWSER_TIMEOUT: "300000"
+    GRID_TIMEOUT: "300000"
+    SE_OPTS: "-browserTimeout 100 -timeout 100"
+    CHROME_DRIVER_VERSION: "85.0.4183.87"
+
+cache:
+  paths:
+    - .m2/repository/
+chrome_test:
+  stage: chrome_test 
+  image: registry.cimm2.com/unilog/performancescript/e-comm_template_hybrid:latest
+  services:
+  - name: selenium/standalone-chrome:3.141.59-zirconium
+    alias: gitlab-chrome
+  script:
+    - java -jar selenium-server-standalone-3.141.59.jar -role hub &
+    - sleep 5s
+    - java -Dwebdriver.chrome.driver=/opt/chromedriver-$CHROME_DRIVER_VERSION -jar selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register -port 9401 &
+    - mvn $MAVEN_CLI_OPTS $MAVEN_OPTS clean test -DURL=$URL -DProjectName=$ProjectName ;
+  allow_failure: true
+  artifacts:
+    when: always
+    paths:
+      - target
+  
+allure_report:
+  stage: generate_report 
+  image: maven:3.3.9-jdk-8
+  script:
+    - mvn $MAVEN_CLI_OPTS $MAVEN_OPTS site;
+  artifacts:
+    when: always
+    paths:
+      - target/site
+
+

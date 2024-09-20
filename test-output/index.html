@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>E:\CMS\e-comm_template_hybrid\temp.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">27 methods, 8 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods failed suite-TestSuite"> (hide)</a> <!-- hide-methods failed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods failed suite-TestSuite"> (show)</a> <!-- show-methods failed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_BulkOption_SelectAll">speedEntryAddToCart_BulkOption_SelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_BulkOption_SpecificItem">speedEntryAddToCart_BulkOption_SpecificItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_BulkOption_UpdateQty">speedEntryAddToCart_BulkOption_UpdateQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_Combine">speedEntryAddToCart_Combine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToPG_BulkOption_SelectAll">speedEntryAddToPG_BulkOption_SelectAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToPG_BulkOption_SpecificItem">speedEntryAddToPG_BulkOption_SpecificItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToPG_BulkOption_UpdateQty">speedEntryAddToPG_BulkOption_UpdateQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadAddToCart_Seperate">verifyFileUploadAddToCart_Seperate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="copyPasteAddToCart">copyPasteAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="copyPasteAddToCart_Combine">copyPasteAddToCart_Combine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="copyPasteAddToCart_MoreThan40Rows">copyPasteAddToCart_MoreThan40Rows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="copyPasteAddToCart_Remove">copyPasteAddToCart_Remove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="copyPasteAddToCart_Seperate">copyPasteAddToCart_Seperate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart">speedEntryAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_InvalidQty">speedEntryAddToCart_InvalidQty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_Remove">speedEntryAddToCart_Remove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_SearchText">speedEntryAddToCart_SearchText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_Seperate">speedEntryAddToCart_Seperate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="speedEntryAddToCart_UndoRedo">speedEntryAddToCart_UndoRedo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyCopyPasteTab">verifyCopyPasteTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyCopyPasteTab_AlertMsgBlankText">verifyCopyPasteTab_AlertMsgBlankText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadAddToCart">verifyFileUploadAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadAddToCart_Combine">verifyFileUploadAddToCart_Combine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadAddToCart_MoreThan40Rows">verifyFileUploadAddToCart_MoreThan40Rows</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadAddToCart_Remove">verifyFileUploadAddToCart_Remove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyFileUploadTab">verifyFileUploadTab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="testmethods.QuickOrderPadModuleTest" class="method navigator-link" hash-for-method="verifyQuickOrderLandingPage(org.testng.TestRunner@7490a00)">verifyQuickOrderLandingPage(org.testng.TestRunner@7490a00)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testmethods.QuickOrderPadModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_BulkOption_SelectAll">
+                  </a> <!-- speedEntryAddToCart_BulkOption_SelectAll -->
+                  <span class="method-name">speedEntryAddToCart_BulkOption_SelectAll</span>
+                  <div class="stack-trace">java.lang.AssertionError: speedEntryAddToCart_BulkOption_SelectAll-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@data-selectall=&apos;CheckBox&apos;]/..&apos; (tried for 15 second(s) with 500 milliseconds interval)
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SelectAll(QuickOrderPadModuleTest.java:437)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_BulkOption_SpecificItem">
+                  </a> <!-- speedEntryAddToCart_BulkOption_SpecificItem -->
+                  <span class="method-name">speedEntryAddToCart_BulkOption_SpecificItem</span>
+                  <div class="stack-trace">java.lang.AssertionError: speedEntryAddToCart_BulkOption_SpecificItem-Failed Index 0 out of bounds for length 0
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SpecificItem(QuickOrderPadModuleTest.java:565)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_BulkOption_UpdateQty">
+                  </a> <!-- speedEntryAddToCart_BulkOption_UpdateQty -->
+                  <span class="method-name">speedEntryAddToCart_BulkOption_UpdateQty</span>
+                  <div class="stack-trace">java.lang.AssertionError: speedEntryAddToCart_BulkOption_UpdateQty-Failed Index 0 out of bounds for length 0
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_UpdateQty(QuickOrderPadModuleTest.java:474)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_Combine">
+                  </a> <!-- speedEntryAddToCart_Combine -->
+                  <span class="method-name">speedEntryAddToCart_Combine</span>
+                  <div class="stack-trace">java.lang.AssertionError: speedEntryAddToCart_Combine-Failed Items are not displayed under added to cart section expected [true] but found [false]
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_Combine(QuickOrderPadModuleTest.java:253)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToPG_BulkOption_SelectAll">
+                  </a> <!-- speedEntryAddToPG_BulkOption_SelectAll -->
+                  <span class="method-name">speedEntryAddToPG_BulkOption_SelectAll</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;TestGroup1&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]&quot;}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;USL-57R6042&apos;, ip: &apos;10.16.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;TestGroup1&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+	at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SelectAll(QuickOrderPadModuleTest.java:526)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToPG_BulkOption_SpecificItem">
+                  </a> <!-- speedEntryAddToPG_BulkOption_SpecificItem -->
+                  <span class="method-name">speedEntryAddToPG_BulkOption_SpecificItem</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;TestProductGroup101&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]&quot;}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;USL-57R6042&apos;, ip: &apos;10.16.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;TestProductGroup101&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+	at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SpecificItem(QuickOrderPadModuleTest.java:615)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToPG_BulkOption_UpdateQty">
+                  </a> <!-- speedEntryAddToPG_BulkOption_UpdateQty -->
+                  <span class="method-name">speedEntryAddToPG_BulkOption_UpdateQty</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;TestAutomation2&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]&quot;}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;USL-57R6042&apos;, ip: &apos;10.16.0.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;TestAutomation2&apos;)]/ancestor::td[@data-th=&apos;Group Name&apos;]/following-sibling::td[@data-th=&apos;Action&apos;]//button[@data-original-title=&apos;Delete Group&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+	at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+	at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_UpdateQty(QuickOrderPadModuleTest.java:667)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 15 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadAddToCart_Seperate">
+                  </a> <!-- verifyFileUploadAddToCart_Seperate -->
+                  <span class="method-name">verifyFileUploadAddToCart_Seperate</span>
+                  <div class="stack-trace">java.lang.AssertionError: verifyFileUploadAddToCart_Seperate-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[contains(@href,&apos;itemsInCart&apos;)]&apos; (tried for 20 second(s) with 500 milliseconds interval)
+	at testmethods.QuickOrderPadModuleTest.verifyFileUploadAddToCart_Seperate(QuickOrderPadModuleTest.java:1081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 11 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-failed -->
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testmethods.QuickOrderPadModuleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyPasteAddToCart">
+                  </a> <!-- copyPasteAddToCart -->
+                  <span class="method-name">copyPasteAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyPasteAddToCart_Combine">
+                  </a> <!-- copyPasteAddToCart_Combine -->
+                  <span class="method-name">copyPasteAddToCart_Combine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyPasteAddToCart_MoreThan40Rows">
+                  </a> <!-- copyPasteAddToCart_MoreThan40Rows -->
+                  <span class="method-name">copyPasteAddToCart_MoreThan40Rows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyPasteAddToCart_Remove">
+                  </a> <!-- copyPasteAddToCart_Remove -->
+                  <span class="method-name">copyPasteAddToCart_Remove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyPasteAddToCart_Seperate">
+                  </a> <!-- copyPasteAddToCart_Seperate -->
+                  <span class="method-name">copyPasteAddToCart_Seperate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart">
+                  </a> <!-- speedEntryAddToCart -->
+                  <span class="method-name">speedEntryAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_InvalidQty">
+                  </a> <!-- speedEntryAddToCart_InvalidQty -->
+                  <span class="method-name">speedEntryAddToCart_InvalidQty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_Remove">
+                  </a> <!-- speedEntryAddToCart_Remove -->
+                  <span class="method-name">speedEntryAddToCart_Remove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_SearchText">
+                  </a> <!-- speedEntryAddToCart_SearchText -->
+                  <span class="method-name">speedEntryAddToCart_SearchText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_Seperate">
+                  </a> <!-- speedEntryAddToCart_Seperate -->
+                  <span class="method-name">speedEntryAddToCart_Seperate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="speedEntryAddToCart_UndoRedo">
+                  </a> <!-- speedEntryAddToCart_UndoRedo -->
+                  <span class="method-name">speedEntryAddToCart_UndoRedo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCopyPasteTab">
+                  </a> <!-- verifyCopyPasteTab -->
+                  <span class="method-name">verifyCopyPasteTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCopyPasteTab_AlertMsgBlankText">
+                  </a> <!-- verifyCopyPasteTab_AlertMsgBlankText -->
+                  <span class="method-name">verifyCopyPasteTab_AlertMsgBlankText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadAddToCart">
+                  </a> <!-- verifyFileUploadAddToCart -->
+                  <span class="method-name">verifyFileUploadAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadAddToCart_Combine">
+                  </a> <!-- verifyFileUploadAddToCart_Combine -->
+                  <span class="method-name">verifyFileUploadAddToCart_Combine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadAddToCart_MoreThan40Rows">
+                  </a> <!-- verifyFileUploadAddToCart_MoreThan40Rows -->
+                  <span class="method-name">verifyFileUploadAddToCart_MoreThan40Rows</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadAddToCart_Remove">
+                  </a> <!-- verifyFileUploadAddToCart_Remove -->
+                  <span class="method-name">verifyFileUploadAddToCart_Remove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFileUploadTab">
+                  </a> <!-- verifyFileUploadTab -->
+                  <span class="method-name">verifyFileUploadTab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuickOrderLandingPage(org.testng.TestRunner@7490a00)">
+                  </a> <!-- verifyQuickOrderLandingPage(org.testng.TestRunner@7490a00) -->
+                  <span class="method-name">verifyQuickOrderLandingPage</span>
+                  <span class="parameters">(org.testng.TestRunner@7490a00)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\CMS\e-comm_template_hybrid\temp.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;Company&quot; value=&quot;CAYCE MILL SUPPLY&quot;/&gt;
+  &lt;parameter name=&quot;OS&quot; value=&quot;Windows&quot;/&gt;
+  &lt;parameter name=&quot;RunHeadless&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;RemoteUrl&quot; value=&quot;http://localhost:4444/wd/hub&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;https://20800cms-beta.cimm2.com/&quot;/&gt;
+  &lt;parameter name=&quot;Browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;classes&quot; name=&quot;Smoke Suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testmethods.QuickOrderPadModuleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Smoke Suite --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Smoke Suite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">File</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_InvalidQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_SearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_UndoRedo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab_AlertMsgBlankText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SelectAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyQuickOrderLandingPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">copy</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab_AlertMsgBlankText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">copyPasteAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SelectAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_InvalidQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_SearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_UndoRedo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_SelectAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCopyPasteTab_AlertMsgBlankText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_MoreThan40Rows</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyFileUploadTab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyQuickOrderLandingPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">speed</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SelectAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Combine</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_InvalidQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Remove</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_SearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToCart_Seperate</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_SelectAll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_SpecificItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">speedEntryAddToPG_BulkOption_UpdateQty</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(27);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'copyPasteAddToCart')
+data.setCell(0, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(0, 3, 133720);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'copyPasteAddToCart_Seperate')
+data.setCell(1, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(1, 3, 132631);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'speedEntryAddToCart_Remove')
+data.setCell(2, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(2, 3, 124814);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'copyPasteAddToCart_Remove')
+data.setCell(3, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(3, 3, 122288);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'speedEntryAddToPG_BulkOption_SelectAll')
+data.setCell(4, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(4, 3, 115325);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'speedEntryAddToCart_BulkOption_SelectAll')
+data.setCell(5, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(5, 3, 112571);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'speedEntryAddToPG_BulkOption_SpecificItem')
+data.setCell(6, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(6, 3, 97564);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'speedEntryAddToPG_BulkOption_UpdateQty')
+data.setCell(7, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(7, 3, 97355);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'speedEntryAddToCart_BulkOption_UpdateQty')
+data.setCell(8, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(8, 3, 83865);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'speedEntryAddToCart_BulkOption_SpecificItem')
+data.setCell(9, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(9, 3, 81857);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'speedEntryAddToCart_Seperate')
+data.setCell(10, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(10, 3, 74519);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyFileUploadAddToCart_Seperate')
+data.setCell(11, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(11, 3, 61076);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'speedEntryAddToCart')
+data.setCell(12, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(12, 3, 59256);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'copyPasteAddToCart_Combine')
+data.setCell(13, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(13, 3, 58371);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyFileUploadAddToCart_Combine')
+data.setCell(14, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(14, 3, 56382);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyFileUploadAddToCart')
+data.setCell(15, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(15, 3, 56243);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'copyPasteAddToCart_MoreThan40Rows')
+data.setCell(16, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(16, 3, 53792);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'speedEntryAddToCart_Combine')
+data.setCell(17, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(17, 3, 53500);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyFileUploadAddToCart_Remove')
+data.setCell(18, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(18, 3, 51889);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'speedEntryAddToCart_UndoRedo')
+data.setCell(19, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(19, 3, 47194);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'speedEntryAddToCart_SearchText')
+data.setCell(20, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(20, 3, 34920);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyQuickOrderLandingPage')
+data.setCell(21, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(21, 3, 25234);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyCopyPasteTab_AlertMsgBlankText')
+data.setCell(22, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(22, 3, 25061);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'speedEntryAddToCart_InvalidQty')
+data.setCell(23, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(23, 3, 24967);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyFileUploadAddToCart_MoreThan40Rows')
+data.setCell(24, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(24, 3, 22953);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyCopyPasteTab')
+data.setCell(25, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(25, 3, 13474);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyFileUploadTab')
+data.setCell(26, 2, 'testmethods.QuickOrderPadModuleTest')
+data.setCell(26, 3, 12962);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 30 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testmethods.QuickOrderPadModuleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyCopyPasteTab_LessMinQty</span>
+                <br/>
+                <span class="ignored-method-name">verifyFileUploadAddToCart_LessMinQty</span>
+                <br/>
+                <span class="ignored-method-name">speedEntryAddToCart_ItemsWithException</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testmethods.QuickOrderPadModuleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialSetup(https://20800cms-beta.cimm2.com/, chrome, http://localhost:4444/wd/hub, false)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">a_login</span>
+                <span class="method-start">33537 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">copyPasteAddToCart</span>
+                <span class="method-start">56424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">copyPasteAddToCart_Combine</span>
+                <span class="method-start">190300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">copyPasteAddToCart_MoreThan40Rows</span>
+                <span class="method-start">248679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">copyPasteAddToCart_Remove</span>
+                <span class="method-start">302478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">copyPasteAddToCart_Seperate</span>
+                <span class="method-start">424773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart</span>
+                <span class="method-start">557410 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToCart_BulkOption_SelectAll</span>
+                <span class="method-start">616673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToCart_BulkOption_SpecificItem</span>
+                <span class="method-start">729257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToCart_BulkOption_UpdateQty</span>
+                <span class="method-start">811125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToCart_Combine</span>
+                <span class="method-start">895027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart_InvalidQty</span>
+                <span class="method-start">948608 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart_Remove</span>
+                <span class="method-start">973588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart_SearchText</span>
+                <span class="method-start">1098409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart_Seperate</span>
+                <span class="method-start">1133399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">speedEntryAddToCart_UndoRedo</span>
+                <span class="method-start">1207927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToPG_BulkOption_SelectAll</span>
+                <span class="method-start">1255128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToPG_BulkOption_SpecificItem</span>
+                <span class="method-start">1370464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">speedEntryAddToPG_BulkOption_UpdateQty</span>
+                <span class="method-start">1468037 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCopyPasteTab</span>
+                <span class="method-start">1565401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCopyPasteTab_AlertMsgBlankText</span>
+                <span class="method-start">1578881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUploadAddToCart</span>
+                <span class="method-start">1603947 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUploadAddToCart_Combine</span>
+                <span class="method-start">1660196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUploadAddToCart_MoreThan40Rows</span>
+                <span class="method-start">1716585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUploadAddToCart_Remove</span>
+                <span class="method-start">1739543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyFileUploadAddToCart_Seperate</span>
+                <span class="method-start">1791445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyFileUploadTab</span>
+                <span class="method-start">1852530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyQuickOrderLandingPage(org.testng.TestRunner@7490a00)</span>
+                <span class="method-start">1865499 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">z_LogOut</span>
+                <span class="method-start">1890743 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">1895923 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

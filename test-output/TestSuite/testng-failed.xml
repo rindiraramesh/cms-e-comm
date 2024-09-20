@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="Company" value="CAYCE MILL SUPPLY"/>
+  <parameter name="OS" value="Windows"/>
+  <parameter name="RunHeadless" value="false"/>
+  <parameter name="RemoteUrl" value="http://localhost:4444/wd/hub"/>
+  <parameter name="URL" value="https://20800cms-beta.cimm2.com/"/>
+  <parameter name="Browser" value="chrome"/>
+  <test thread-count="3" parallel="classes" name="Smoke Suite(failed)">
+    <classes>
+      <class name="testmethods.QuickOrderPadModuleTest">
+        <methods>
+          <include name="speedEntryAddToPG_BulkOption_SpecificItem"/>
+          <include name="a_login"/>
+          <include name="speedEntryAddToCart_BulkOption_SelectAll"/>
+          <include name="speedEntryAddToCart_BulkOption_SpecificItem"/>
+          <include name="verifyFileUploadAddToCart_Seperate"/>
+          <include name="speedEntryAddToCart_Combine"/>
+          <include name="speedEntryAddToPG_BulkOption_UpdateQty"/>
+          <include name="initialSetup"/>
+          <include name="speedEntryAddToPG_BulkOption_SelectAll"/>
+          <include name="closeBrowser"/>
+          <include name="speedEntryAddToCart_BulkOption_UpdateQty"/>
+          <include name="z_LogOut"/>
+        </methods>
+      </class> <!-- testmethods.QuickOrderPadModuleTest -->
+    </classes>
+  </test> <!-- Smoke Suite(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

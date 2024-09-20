@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="30" passed="19" failed="8" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-27T08:03:03Z" name="TestSuite" finished-at="2022-10-27T08:34:40Z" duration-ms="1896813">
+    <groups>
+      <group name="regression">
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SelectAll" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_InvalidQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_InvalidQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_SearchText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_SearchText" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_UndoRedo()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_UndoRedo" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_SelectAll" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab_AlertMsgBlankText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab_AlertMsgBlankText" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadTab" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyQuickOrderLandingPage(org.testng.ITestContext)[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyQuickOrderLandingPage" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- regression -->
+      <group name="Smoke Test">
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SelectAll" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadTab" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyQuickOrderLandingPage(org.testng.ITestContext)[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyQuickOrderLandingPage" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- Smoke Test -->
+      <group name="copy">
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab_AlertMsgBlankText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab_AlertMsgBlankText" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- copy -->
+      <group name="Smoke">
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.copyPasteAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="copyPasteAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_InvalidQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_InvalidQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_SearchText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_SearchText" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_UndoRedo()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_UndoRedo" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyCopyPasteTab_AlertMsgBlankText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyCopyPasteTab_AlertMsgBlankText" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- Smoke -->
+      <group name="File">
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_MoreThan40Rows" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.verifyFileUploadTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="verifyFileUploadTab" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- File -->
+      <group name="speed">
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SelectAll" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Combine" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_InvalidQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_InvalidQty" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Remove" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_SearchText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_SearchText" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToCart_Seperate" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_SelectAll" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_SpecificItem" class="testmethods.QuickOrderPadModuleTest"/>
+        <method signature="QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" name="speedEntryAddToPG_BulkOption_UpdateQty" class="testmethods.QuickOrderPadModuleTest"/>
+      </group> <!-- speed -->
+    </groups>
+    <test started-at="2022-10-27T08:03:03Z" name="Smoke Suite" finished-at="2022-10-27T08:34:40Z" duration-ms="1896813">
+      <class name="testmethods.QuickOrderPadModuleTest">
+        <test-method is-config="true" signature="initialSetup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:03:03Z" name="initialSetup" finished-at="2022-10-27T08:03:37Z" duration-ms="33534" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://20800cms-beta.cimm2.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialSetup -->
+        <test-method is-config="true" signature="a_login()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:03:37Z" name="a_login" finished-at="2022-10-27T08:04:00Z" duration-ms="22868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_login -->
+        <test-method signature="copyPasteAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:04:00Z" name="copyPasteAddToCart" finished-at="2022-10-27T08:06:14Z" duration-ms="133720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyPasteAddToCart -->
+        <test-method signature="copyPasteAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:06:14Z" name="copyPasteAddToCart_Combine" finished-at="2022-10-27T08:07:12Z" duration-ms="58371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyPasteAddToCart_Combine -->
+        <test-method signature="copyPasteAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:07:12Z" name="copyPasteAddToCart_MoreThan40Rows" finished-at="2022-10-27T08:08:06Z" duration-ms="53792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyPasteAddToCart_MoreThan40Rows -->
+        <test-method signature="copyPasteAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:08:06Z" name="copyPasteAddToCart_Remove" finished-at="2022-10-27T08:10:08Z" duration-ms="122288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyPasteAddToCart_Remove -->
+        <test-method signature="copyPasteAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:10:08Z" name="copyPasteAddToCart_Seperate" finished-at="2022-10-27T08:12:21Z" duration-ms="132631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyPasteAddToCart_Seperate -->
+        <test-method signature="speedEntryAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:12:21Z" name="speedEntryAddToCart" finished-at="2022-10-27T08:13:20Z" duration-ms="59256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart -->
+        <test-method signature="speedEntryAddToCart_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:13:20Z" name="speedEntryAddToCart_BulkOption_SelectAll" finished-at="2022-10-27T08:15:13Z" duration-ms="112571" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[speedEntryAddToCart_BulkOption_SelectAll-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@data-selectall='CheckBox']/..' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: speedEntryAddToCart_BulkOption_SelectAll-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@data-selectall='CheckBox']/..' (tried for 15 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:96)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SelectAll(QuickOrderPadModuleTest.java:437)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_BulkOption_SelectAll -->
+        <test-method signature="speedEntryAddToCart_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:15:13Z" name="speedEntryAddToCart_BulkOption_SpecificItem" finished-at="2022-10-27T08:16:35Z" duration-ms="81857" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[speedEntryAddToCart_BulkOption_SpecificItem-Failed Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: speedEntryAddToCart_BulkOption_SpecificItem-Failed Index 0 out of bounds for length 0
+at org.testng.Assert.fail(Assert.java:96)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_SpecificItem(QuickOrderPadModuleTest.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_BulkOption_SpecificItem -->
+        <test-method signature="speedEntryAddToCart_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:16:35Z" name="speedEntryAddToCart_BulkOption_UpdateQty" finished-at="2022-10-27T08:17:58Z" duration-ms="83865" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[speedEntryAddToCart_BulkOption_UpdateQty-Failed Index 0 out of bounds for length 0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: speedEntryAddToCart_BulkOption_UpdateQty-Failed Index 0 out of bounds for length 0
+at org.testng.Assert.fail(Assert.java:96)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_BulkOption_UpdateQty(QuickOrderPadModuleTest.java:474)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_BulkOption_UpdateQty -->
+        <test-method signature="speedEntryAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:17:58Z" name="speedEntryAddToCart_Combine" finished-at="2022-10-27T08:18:52Z" duration-ms="53500" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[speedEntryAddToCart_Combine-Failed Items are not displayed under added to cart section expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: speedEntryAddToCart_Combine-Failed Items are not displayed under added to cart section expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToCart_Combine(QuickOrderPadModuleTest.java:253)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_Combine -->
+        <test-method signature="speedEntryAddToCart_InvalidQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:18:52Z" name="speedEntryAddToCart_InvalidQty" finished-at="2022-10-27T08:19:17Z" duration-ms="24967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_InvalidQty -->
+        <test-method signature="speedEntryAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:19:17Z" name="speedEntryAddToCart_Remove" finished-at="2022-10-27T08:21:22Z" duration-ms="124814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_Remove -->
+        <test-method signature="speedEntryAddToCart_SearchText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:21:22Z" name="speedEntryAddToCart_SearchText" finished-at="2022-10-27T08:21:57Z" duration-ms="34920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_SearchText -->
+        <test-method signature="speedEntryAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:21:57Z" name="speedEntryAddToCart_Seperate" finished-at="2022-10-27T08:23:11Z" duration-ms="74519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_Seperate -->
+        <test-method signature="speedEntryAddToCart_UndoRedo()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:23:11Z" name="speedEntryAddToCart_UndoRedo" finished-at="2022-10-27T08:23:59Z" duration-ms="47194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToCart_UndoRedo -->
+        <test-method signature="speedEntryAddToPG_BulkOption_SelectAll()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:23:59Z" name="speedEntryAddToPG_BulkOption_SelectAll" finished-at="2022-10-27T08:25:54Z" duration-ms="115325" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestGroup1')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestGroup1')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestGroup1')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestGroup1')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SelectAll(QuickOrderPadModuleTest.java:526)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToPG_BulkOption_SelectAll -->
+        <test-method signature="speedEntryAddToPG_BulkOption_SpecificItem()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:25:54Z" name="speedEntryAddToPG_BulkOption_SpecificItem" finished-at="2022-10-27T08:27:31Z" duration-ms="97564" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestProductGroup101')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestProductGroup101')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestProductGroup101')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestProductGroup101')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_SpecificItem(QuickOrderPadModuleTest.java:615)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToPG_BulkOption_SpecificItem -->
+        <test-method signature="speedEntryAddToPG_BulkOption_UpdateQty()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:27:31Z" name="speedEntryAddToPG_BulkOption_UpdateQty" finished-at="2022-10-27T08:29:09Z" duration-ms="97355" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestAutomation2')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestAutomation2')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'TestAutomation2')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'USL-57R6042', ip: '10.16.0.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\niranjan.ms\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:50066}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 9be311b09a11f9b09ea5fd82ce6...}
+Session ID: 9be311b09a11f9b09ea5fd82ce62d432
+*** Element info: {Using=xpath, value=//a[contains(text(),'TestAutomation2')]/ancestor::td[@data-th='Group Name']/following-sibling::td[@data-th='Action']//button[@data-original-title='Delete Group']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at pageobjects.MyProductGroupsPageObjects.deleteProductGroup(MyProductGroupsPageObjects.java:858)
+at testmethods.ProductGroupModuleTest.deleteProductGroup(ProductGroupModuleTest.java:36)
+at testmethods.QuickOrderPadModuleTest.speedEntryAddToPG_BulkOption_UpdateQty(QuickOrderPadModuleTest.java:667)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- speedEntryAddToPG_BulkOption_UpdateQty -->
+        <test-method signature="verifyCopyPasteTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:29:09Z" name="verifyCopyPasteTab" finished-at="2022-10-27T08:29:22Z" duration-ms="13474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCopyPasteTab -->
+        <test-method signature="verifyCopyPasteTab_AlertMsgBlankText()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:29:22Z" name="verifyCopyPasteTab_AlertMsgBlankText" finished-at="2022-10-27T08:29:47Z" duration-ms="25061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCopyPasteTab_AlertMsgBlankText -->
+        <test-method signature="verifyFileUploadAddToCart()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:29:47Z" name="verifyFileUploadAddToCart" finished-at="2022-10-27T08:30:44Z" duration-ms="56243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadAddToCart -->
+        <test-method signature="verifyFileUploadAddToCart_Combine()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:30:44Z" name="verifyFileUploadAddToCart_Combine" finished-at="2022-10-27T08:31:40Z" duration-ms="56382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadAddToCart_Combine -->
+        <test-method signature="verifyFileUploadAddToCart_MoreThan40Rows()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:31:40Z" name="verifyFileUploadAddToCart_MoreThan40Rows" finished-at="2022-10-27T08:32:03Z" duration-ms="22953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadAddToCart_MoreThan40Rows -->
+        <test-method signature="verifyFileUploadAddToCart_Remove()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:32:03Z" name="verifyFileUploadAddToCart_Remove" finished-at="2022-10-27T08:32:55Z" duration-ms="51889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadAddToCart_Remove -->
+        <test-method signature="verifyFileUploadAddToCart_Seperate()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:32:55Z" name="verifyFileUploadAddToCart_Seperate" finished-at="2022-10-27T08:33:56Z" duration-ms="61076" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[verifyFileUploadAddToCart_Seperate-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@href,'itemsInCart')]' (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: verifyFileUploadAddToCart_Seperate-Failed Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@href,'itemsInCart')]' (tried for 20 second(s) with 500 milliseconds interval)
+at org.testng.Assert.fail(Assert.java:96)
+at testmethods.QuickOrderPadModuleTest.verifyFileUploadAddToCart_Seperate(QuickOrderPadModuleTest.java:1081)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadAddToCart_Seperate -->
+        <test-method signature="verifyFileUploadTab()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:33:56Z" name="verifyFileUploadTab" finished-at="2022-10-27T08:34:09Z" duration-ms="12962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFileUploadTab -->
+        <test-method signature="verifyQuickOrderLandingPage(org.testng.ITestContext)[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:34:09Z" name="verifyQuickOrderLandingPage" finished-at="2022-10-27T08:34:34Z" duration-ms="25234" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7490a00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQuickOrderLandingPage -->
+        <test-method is-config="true" signature="z_LogOut()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:34:34Z" name="z_LogOut" finished-at="2022-10-27T08:34:39Z" duration-ms="5180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z_LogOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testmethods.QuickOrderPadModuleTest@50cb24ed]" started-at="2022-10-27T08:34:39Z" name="closeBrowser" finished-at="2022-10-27T08:34:40Z" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testmethods.QuickOrderPadModuleTest -->
+    </test> <!-- Smoke Suite -->
+  </suite> <!-- TestSuite -->
+</testng-results>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Comm_Template_Hybrid">
+	<parameter name="URL" value="https://16000tte.beta.cimm2.com" />
+	<!-- <parameter name="URL" value="https://973ecb.stage.cimm2.com"/> -->
+	<!-- <parameter name="URL" value="https://973ecb.cimm2.com/" /> -->
+	<parameter name="Browser" value="chrome" />
+	<parameter name="RunHeadless" value="false" />
+	<parameter name="Company" value="Unilog" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://localhost:4444/wd/hub" />
+
+	<!-- <parameter name="RemoteUrl" value="http://172.16.0.204:4444/wd/hub" 
+		/> -->
+	<test name="Smoke_Detail">
+		<groups>
+			<run>
+				<include name="Smoke Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="testmethods.AddRemoveCPNTest" />
+			<class name="testmethods.AvailabilityModuleTest" />
+			<class name="testmethods.CategoryPagesTest" />
+			<class name="testmethods.GeneralSearch" />
+			<class name="testmethods.RegistrationModule" />
+			<class name="testmethods.ProductGroupModuleTest" />
+			<class name="testmethods.LoginModuleTest" />
+			<class name="testmethods.CompareModuleTest" />
+			<class name="testmethods.FooterModule" />
+			<class name="testmethods.ShopByBrandsModuleTest" />
+			<class name="testmethods.ShopByManufacturerModuleTest" />
+			<class name="testmethods.LocationsModuleTest" />
+			<class name="testmethods.ForgotPasswordModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<class name="testmethods.ChangeShippingAddressTest" />
+			<class name="testmethods.HeaderModule" />
+			<class name="testmethods.SendThisPageModuleTest" />
+			<class name="testmethods.OrderHistoryModuleTest" />
+			<class name="testmethods.OrderDetailModuleTest" />
+			<class name="testmethods.PricePrecisionModule" />
+			<class name="testmethods.RequestForQuoteModule" />
+			<class name="testmethods.HomePageTest" />
+			<class name="testmethods.ChangePasswordTest" />
+			<class name="testmethods.LeftMenuModuleTest" />
+			<class name="testmethods.ShipMethodModuleTest" />
+			<class name="testmethods.PricingModuleTest" />
+			<class name="testmethods.AccountDashboardModuleTest" />
+			<class name="testmethods.UserManagementModuleTest" />
+			<class name="testmethods.AddToCartModuleTest" />
+			<class name="testmethods.OpenOrderModuleTest" />
+			<class name="testmethods.POCheckoutModuleTest" />
+			<class name="testmethods.ProductDetail_SKUModuleTest" />
+			<class name="testmethods.ReOrderCartModuleTest" />
+			<class name="testmethods.QuickOrderPadModuleTest" />
+			<class name="testmethods.SaveCartModuleTest" />
+			<class name="testmethods.ShoppingCartModuleTest" />
+		</classes>
+	</test>
+</suite>

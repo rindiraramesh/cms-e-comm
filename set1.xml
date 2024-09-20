@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Set1_Runs_InParallel" parallel="classes"
+	thread-count="6" data-provider-thread-count="3">
+	<parameter name="ProjectName" value="CAYCE MILL SUPPLY" />
+	<parameter name="URL" value="https://20800cms-beta.cimm2.com/" />
+	<parameter name="Browser" value="chrome" />
+	<parameter name="RunHeadless" value="true" />
+	<parameter name="Company" value="CAYCE MILL SUPPLY" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://gitlab-chrome:4444/wd/hub" />
+<!-- 	<parameter name="RemoteUrl" value="http://localhost:4444/wd/hub" /> -->
+	<test name="Regression">
+	<!-- <groups>
+			<run>
+				<include name="Smoke Test" />
+			</run>
+		</groups> -->
+		<classes>
+			<class name="testmethods.AddRemoveCPNTest" />
+			<class name="testmethods.AvailabilityModuleTest" />
+			<class name="testmethods.CategoryPagesTest" />
+			<class name="testmethods.GeneralSearch" />
+			<class name="testmethods.RegistrationModule" />
+			<class name="testmethods.ProductGroupModuleTest" />
+			<class name="testmethods.LoginModuleTest" />
+			<class name="testmethods.CompareModuleTest" />
+			<class name="testmethods.FooterModule" />
+			<class name="testmethods.ShopByBrandsModuleTest" />
+			<!-- <class name="testmethods.ShopByManufacturerModuleTest" /> -->
+			<class name="testmethods.LocationsModuleTest" />
+			<class name="testmethods.ForgotPasswordModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<!-- <class name="testmethods.ChangeShippingAddressTest" /> -->
+			<class name="testmethods.HeaderModule" />
+			<class name="testmethods.SendThisPageModuleTest" />
+			<class name="testmethods.OrderHistoryModuleTest" />
+			<class name="testmethods.PricePrecisionModule" />
+			<class name="testmethods.RequestForQuoteModule" />
+			<class name="testmethods.HomePageTest" />
+			<class name="testmethods.ChangePasswordTest" />
+			<class name="testmethods.LeftMenuModuleTest" />
+			<class name="testmethods.ShipMethodModuleTest" />
+			<class name="testmethods.PricingModuleTest" />
+			<class name="testmethods.ProductDetail_SKUModuleTest" />
+			<class name="testmethods.OpenOrderModuleTest" />
+			<class name="testmethods.AccountDashboardModuleTest" />
+			<!-- <class name="testmethods.OrderDetailModuleTest" />  no test data in template-->
+			<!-- <class name="testmethods.SocialMediaTest" />
+			<class name="testmethods.ClearanceModule" />
+			<class name="testmethods.AddNewCreditCardModuleTest" /> 
+			<class name="testmethods.LiveChatTest"/>
+			<class name="testmethods.UserManagementModuleTest" />
+			<class name="testmethods.AccountFinancialInfoModuleTest" />-->
+		</classes>
+	</test>
+</suite>

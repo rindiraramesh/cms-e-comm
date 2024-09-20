@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="E-Comm_Template_Hybrid">
+	<parameter name="ProjectName" value="${projectName}" />
+	<parameter name="URL" value="${URL}" />
+	<parameter name="Company" value="Unilog" />
+	<parameter name="OS" value="Windows" />
+	<parameter name="RemoteUrl"
+		value="http://localhost:4444/wd/hub" />
+	<test name="Chrome" preserve-order="true">
+		<parameter name="Browser" value="chrome" />
+		<parameter name="RunHeadless" value="false" />
+		<classes>
+			<class name="testmethods.GeneralSearch" />
+			<class name="testmethods.RegistrationModule" />
+			<class name="testmethods.ProductGroupModuleTest" />
+			<class name="testmethods.LoginModuleTest" />
+			<class name="testmethods.CompareModuleTest" />
+			<class name="testmethods.FooterModule" />
+			<class name="testmethods.ShopByBrandsModuleTest" />
+			<class name="testmethods.ShopByManufacturerModuleTest" />
+			<class name="testmethods.ClearanceModule" />
+			<class name="testmethods.LocationsModuleTest" />
+			<class name="testmethods.ForgotPasswordModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<class name="testmethods.POCheckoutModuleTest" />
+			<class name="testmethods.ShoppingCartModuleTest" />
+			<class name="testmethods.AddToCartModuleTest" />
+			<class name="testmethods.UserManagementModuleTest" />
+			<class name="testmethods.ChangeShippingAddressTest" />
+			<class name="testmethods.HeaderModule" />
+			<class name="testmethods.SaveCartModuleTest" />
+			<class name="testmethods.SendThisPageModuleTest" />
+			<class name="testmethods.OrderHistoryModuleTest" />
+			<class name="testmethods.OrderDetailModuleTest" />
+			<class name="testmethods.AccountDashboardModuleTest" />
+			<class name="testmethods.PricePrecisionModule" />
+			<class name="testmethods.ReOrderCartModuleTest" />
+			<class name="testmethods.OpenOrderModuleTest" />
+			<class name="testmethods.ProductDetail_V1ModuleTest" />
+			<class name="testmethods.QuickOrderPadModuleTest" />
+			<class name="testmethods.AddRemoveCPNTest" />
+			<class name="testmethods.RequestQuoteModule" />
+			<class name="testmethods.HomePageTest" />
+			<class name="testmethods.ChangePasswordTest" />
+			<class name="testmethods.LeftMenuModuleTest" />
+			<class name="testmethods.ShareCartModuleTest" />
+			<class name="testmethods.CategoryPagesTest" />
+			<class name="testmethods.ShipMethodModuleTest" />
+			<class name="testmethods.PricingModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<class name="testmethods.AvailabilityModuleTest" />
+		</classes>
+	</test>
+	<test name="Firefox" preserve-order="true">
+		<parameter name="Browser" value="firefox" />
+		<parameter name="RunHeadless" value="false" />
+		<classes>
+			<class name="testmethods.GeneralSearch" />
+			<class name="testmethods.RegistrationModule" />
+			<class name="testmethods.ProductGroupModuleTest" />
+			<class name="testmethods.LoginModuleTest" />
+			<class name="testmethods.CompareModuleTest" />
+			<class name="testmethods.FooterModule" />
+			<class name="testmethods.ShopByBrandsModuleTest" />
+			<class name="testmethods.ShopByManufacturerModuleTest" />
+			<class name="testmethods.ClearanceModule" />
+			<class name="testmethods.LocationsModuleTest" />
+			<class name="testmethods.ForgotPasswordModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<class name="testmethods.POCheckoutModuleTest" />
+			<class name="testmethods.ShoppingCartModuleTest" />
+			<class name="testmethods.AddToCartModuleTest" />
+			<class name="testmethods.UserManagementModuleTest" />
+			<class name="testmethods.ChangeShippingAddressTest" />
+			<class name="testmethods.HeaderModule" />
+			<class name="testmethods.SaveCartModuleTest" />
+			<class name="testmethods.SendThisPageModuleTest" />
+			<class name="testmethods.OrderHistoryModuleTest" />
+			<class name="testmethods.OrderDetailModuleTest" />
+			<class name="testmethods.AccountDashboardModuleTest" />
+			<class name="testmethods.PricePrecisionModule" />
+			<class name="testmethods.ReOrderCartModuleTest" />
+			<class name="testmethods.OpenOrderModuleTest" />
+			<class name="testmethods.ProductDetail_V1ModuleTest" />
+			<class name="testmethods.QuickOrderPadModuleTest" />
+			<class name="testmethods.AddRemoveCPNTest" />
+			<class name="testmethods.RequestQuoteModule" />
+			<class name="testmethods.HomePageTest" />
+			<class name="testmethods.ChangePasswordTest" />
+			<class name="testmethods.LeftMenuModuleTest" />
+			<class name="testmethods.ShareCartModuleTest" />
+			<class name="testmethods.CategoryPagesTest" />
+			<class name="testmethods.ShipMethodModuleTest" />
+			<class name="testmethods.PricingModuleTest" />
+			<class name="testmethods.ProductListAndGridModuleTest" />
+			<class name="testmethods.AvailabilityModuleTest" />
+		</classes>
+	</test>
+</suite> 
